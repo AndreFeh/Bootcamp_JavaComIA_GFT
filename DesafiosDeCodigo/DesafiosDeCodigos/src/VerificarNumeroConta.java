@@ -1,0 +1,72 @@
+import java.util.Scanner;
+
+//     Scanner scanner = new Scanner(System.in);
+//
+//        try {
+//            String numeroConta = scanner.nextLine();
+//
+//            // TODO: Chamar o método que veritica se o número da conta é valido
+//
+//            // Caso nenhuma exceção seja lançada, imprime a mensagem de sucesso.
+//            System.out.println("Numero de conta valido.");
+//        } catch (IllegalArgumentException e) {
+//            // TODO: Informar que o número de conta é inválido e exibir a mensagem de erro
+//            System.out.println("Erro: " + e.getMessage());
+//        } finally {
+//            // Fechar o scanner para evitar vazamentos de recursos
+//            scanner.close();
+//        }
+//    }
+//
+//    private static void verificarNumeroConta(String numeroConta) {
+//        if (numeroConta.length() != 8) {
+//            // TODO: Lançar uma IllegalArgumentException com a seguinte mensagem:
+//            // "Numero de conta invalido. Digite exatamente 8 digitos."
+//        }
+//    }
+//}
+/*
+* Descrição
+Você está desenvolvendo um programa simples em Java para verificar se um número de conta bancária é válido. O número da conta deve ter exatamente 8 dígitos.
+
+*Entrada
+O programa solicitará ao usuário que digite o número da conta bancária.
+*Saída
+O programa utilizará um bloco try-catch para verificar se o número da conta possui exatamente 8 dígitos.
+Se o número da conta tiver 8 dígitos, o programa informará que é um número válido.
+Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, IllegalArgumentException) e informará que o número da conta é inválido.
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	Saída
+01020304    Numero de conta valido.
+1234568	    Erro: Numero de conta invalido. Digite exatamente 8 digitos.
+3231	    Erro: Numero de conta invalido. Digite exatamente 8 digitos.
+
+
+*/
+public class VerificarNumeroConta {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        Scanner leitor = new Scanner(System.in);
+
+        // System.out.println("Digite o número da conta bancária (exatamente 8 dígitos):");
+
+        try {
+            String numeroConta = leitor.nextLine();
+            validarNumeroConta(numeroConta);
+            System.out.println("Numero de conta valido.");
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+
+        leitor.close();
+    }
+
+    // Método para validar o número da conta bancária
+    public static void validarNumeroConta(String numeroConta) {
+        if (numeroConta.length() != 8 || !numeroConta.matches("\\d+")) {
+            throw new IllegalArgumentException("Erro: Numero de conta invalido. Digite exatamente 8 digitos.");
+        }
+    }
+}

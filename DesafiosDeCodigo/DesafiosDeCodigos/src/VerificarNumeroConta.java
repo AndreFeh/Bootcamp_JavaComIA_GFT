@@ -47,10 +47,8 @@ Entrada	Saída
 */
 public class VerificarNumeroConta {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         Scanner leitor = new Scanner(System.in);
-
-        // System.out.println("Digite o número da conta bancária (exatamente 8 dígitos):");
+        // System.out.println("Digite o número da conta bancária (Deve conter 8 dígitos): ");
 
         try {
             String numeroConta = leitor.nextLine();

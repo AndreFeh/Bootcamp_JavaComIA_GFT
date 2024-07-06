@@ -15,6 +15,7 @@
         }
     }
 <<<
+
 Teria que lidar com a perda de zeros à esquerda, pois esta recebendo int
 
 ### _matches("\\d+")_ - usado nessa conversão, o que facilita muito
@@ -44,5 +45,42 @@ public static void validarNumeroConta(String numeroConta) {
 ### Loop FOR
 Ainda tenho muita dificuldade com esse loop, mas nesses exercícios, pude enxergar com mais clareza o loop
 > Na questão do limite de saques!
+
+## Relembrando
+###UML
+>>> Pude relembrar como é a UML e como funciona os processos de Diagrama, nostalgia da faculdade, quando tivemos que entregar alguns trabalhos sobre diagramas de classes e os erros e aprendizagem durante esses processos
+
+A UML Interpretação de objetos do mundo real e pensamento logico para transformar em programa
+
+É a representação básica de um projeto
+    ATRAVES DE DIAGRAMAS
+    
+Diagrama de Classe - Representação de estrutura de classe do negocio
+    Interface e coponentes do projeto
+        PRINCIPAL DIAGRAMA PARA NEGOCIO
+        
+
+Diagrama de Objetos - Representa objetos existentes em determinado instante da aplicação
+
+Relacionamento - As classes são separadas e unicas, no entanto, definir em qual momentos da aplicação que elas se unem
+
+Associação - dentro da arquitetura de UML, tem se a associação onde define que tipo de relacionamento que eles possuem (Como em Modelos de BD, se é 1 para 1...)
+
+
+Ass. Simples - Associação de uma classe para outra, O CLIENTE TEM UMA PROFISSAO
+
+Ass. Bidirecional - As 2 classes precisam se enxergar, (não tao comum)
+
+Agregação - Capacidade de determinar que existe um relacionamento, e a classe B é Agregada a classe A
+    A classe principal precisa da outra classe, mas ela pode existir sem a outra
+        CANDIDATOS, ELES PODEM TER OU NÃO TER EMPREGOS
+        
+
+Composição - Dependencia existencial entre a classe principal e a classe relacionada
+    UMA ADMISSAO SO PODE EXISTIR COM AS INFORMAÇÕES SOLICITADAS E COMPOSIÇÃO DO CANDIDATO
+        A admissao so sera criada se existir um candidato e ele ser informada
+            Logicamente não faz sentido ela existir se não tem candidato que "passou na vaga"
+            
+Agregação e Composição - Sua diferenca esta entre a dependencia de uma classe à outra, A PRECISA DE B, mas qual o nivel dessa necessidade
 
 

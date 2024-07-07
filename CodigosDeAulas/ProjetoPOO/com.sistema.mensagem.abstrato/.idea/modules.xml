@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../com.sistema.autodromo/Autodromo.iml" filepath="$PROJECT_DIR$/../com.sistema.autodromo/Autodromo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.sistema.mensagem.abstrato.iml" filepath="$PROJECT_DIR$/com.sistema.mensagem.abstrato.iml" />
     </modules>
   </component>
 </project>

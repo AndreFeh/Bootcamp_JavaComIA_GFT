@@ -1,4 +1,6 @@
-import list.model.ListaTarefas;
+package list.tarefas;
+
+import list.tarefas.model.ListaTarefas;
 
 public class MainApplication {
     public static void main(String[] args) {

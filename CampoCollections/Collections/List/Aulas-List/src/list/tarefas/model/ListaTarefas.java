@@ -1,4 +1,4 @@
-package list.model;
+package list.tarefas.model;
 
 import java.util.ArrayList;
 import java.util.List;

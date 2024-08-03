@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-List_Set/Aulas-List_Set.iml" filepath="$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-List_Set/Aulas-List_Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-Map/Aulas-Map.iml" filepath="$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-Map/Aulas-Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp_JavaComIA_GFT.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp_JavaComIA_GFT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/CodigoDeAulas/CodigoDeAulas.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/CodigoDeAulas/CodigoDeAulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafiosDeCodigo/DesafiosDeCodigo.iml" filepath="$PROJECT_DIR$/DesafiosDeCodigo/DesafiosDeCodigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoEscola/Escola/Escola.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoEscola/Escola/Escola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoEscola/Pessoa/Pessoa.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoEscola/Pessoa/Pessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-Map/Map_ClassRoom/src/classroom/estoque-produtos/EstoqueProdutos/Produto.iml" filepath="$PROJECT_DIR$/CampoCollections/Collections/Collections/Aulas-Map/Map_ClassRoom/src/classroom/estoque-produtos/EstoqueProdutos/Produto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoEnumEstado/ProjetoEnumEstado.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoEnumEstado/ProjetoEnumEstado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoLanchonete/ProjetoLanchonete.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoLanchonete/ProjetoLanchonete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.dispositivos/com.dispositivos.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.dispositivos/com.dispositivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.mastersoft.clinical/com.mastersoft.clinical.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.mastersoft.clinical/com.mastersoft.clinical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.autodromo/com.sistema.autodromo.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.autodromo/com.sistema.autodromo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.envio-msn/com.sistema.envio-msn.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.envio-msn/com.sistema.envio-msn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.mensagem.abstrato/com.sistema.mensagem.abstrato.iml" filepath="$PROJECT_DIR$/CodigosDeAulas/ProjetoPOO/com.sistema.mensagem.abstrato/com.sistema.mensagem.abstrato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CampoCollections/Generics/untitled.iml" filepath="$PROJECT_DIR$/CampoCollections/Generics/untitled.iml" />
+    </modules>
+  </component>
+</project>

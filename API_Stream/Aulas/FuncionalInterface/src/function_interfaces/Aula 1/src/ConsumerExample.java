@@ -36,6 +36,8 @@ public class ConsumerExample {
                     System.out.println(par);
                 }
         });
+//        Com reference Mathods
+/**        numeros.forEach(System.out::println);*/
 
     }
 }
